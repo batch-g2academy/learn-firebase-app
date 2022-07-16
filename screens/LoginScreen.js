@@ -16,6 +16,8 @@ const LoginScreen = ({ navigation }) => {
             clearForm();
 
             navigation.replace('Product');
+
+            // await AsyncStorage.setItem('accessToken', user.idToken)
             
         } catch(err) {
             console.log(err);
